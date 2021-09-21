@@ -1,0 +1,581 @@
+2021-09-07 22:14:32,218  INFO [main] (StartupInfoLogger.java:55) - Starting SweeneyApplication v1.8-SNAPSHOT on DESKTOP-A48DR00 with PID 13440 (D:\graduation-project\application\sweeney\sweeney-server-1.8-SNAPSHOT.jar started by isluna in D:\graduation-project\application\sweeney) 
+2021-09-07 22:14:32,223  INFO [main] (SpringApplication.java:651) - No active profile set, falling back to default profiles: default 
+2021-09-07 22:14:38,251  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:14:38,264  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:14:38,275  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:14:38,295  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:14:38,301  INFO [main] (StartupInfoLogger.java:61) - Started SweeneyApplication in 6.916 seconds (JVM running for 7.599) 
+2021-09-07 22:14:38,303  INFO [scheduling-2] (MainFlowService.java:29) - trying push mainFlowStateMachine from INIT to PREPARE 
+2021-09-07 22:14:38,364  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:14:38,365  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:14:38,374  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:14:40,297  INFO [scheduling-2] (OshiUtils.java:79) - init oshiHardwareDTO success, oshiHardwareDTO={"firmwareDTO":{"description":"7PCN27WW","manufacturer":"LENOVO","name":"7PCN27WW","version":"LENOVO - 1"},"hostName":"DESKTOP-A48DR00","macAddressSet":["60:c5:47:06:6f:88"],"manufacturer":"LENOVO","memoryDTO":{"memeryTotal":17048506368,"swapTotal":2550136832},"model":"81GY","processorDTO":{"logicalProcessorCount":8,"name":"Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz","physicalPackageCount":1,"physicalProcessorCount":4,"processorId":"BFEBFBFF000806EA"},"serialNumber":"PF17JQVU"} 
+2021-09-07 22:14:40,302  INFO [scheduling-2] (ProcessTools.java:61) - start executeAndGetOutput, commandList=["cmd.exe","/C","Start","/B","D:\\graduation-project\\application\\sweeney/bin/clinfo/clinfo.exe","--raw"], workingDir=D:\graduation-project\application\sweeney/bin/clinfo, waitSeconds=5, mustSuccess=false 
+2021-09-07 22:14:40,312  INFO [process-stream-reader-0] (ProcessTools.java:79) - start process InputStream 
+2021-09-07 22:14:41,344  INFO [process-stream-reader-0] (ProcessTools.java:99) - finish process InputStream 
+2021-09-07 22:14:42,323  INFO [scheduling-2] (ProcessTools.java:130) - executeAndGetOutput finish, commandList=["cmd.exe","/C","Start","/B","D:\\graduation-project\\application\\sweeney/bin/clinfo/clinfo.exe","--raw"], workingDir=D:\graduation-project\application\sweeney/bin/clinfo, waitSeconds=5, mustSuccess=false, output=#PLATFORMS                                        2
+  CL_PLATFORM_NAME                                NVIDIA CUDA
+  CL_PLATFORM_VENDOR                              NVIDIA Corporation
+  CL_PLATFORM_VERSION                             OpenCL 1.2 CUDA 11.1.114
+  CL_PLATFORM_PROFILE                             FULL_PROFILE
+  CL_PLATFORM_EXTENSIONS                          cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid
+  CL_PLATFORM_ICD_SUFFIX_KHR                      NV
+
+  CL_PLATFORM_NAME                                Intel(R) OpenCL HD Graphics
+  CL_PLATFORM_VENDOR                              Intel(R) Corporation
+  CL_PLATFORM_VERSION                             OpenCL 2.1 
+  CL_PLATFORM_PROFILE                             FULL_PROFILE
+  CL_PLATFORM_EXTENSIONS                          cl_khr_byte_addressable_store cl_khr_fp16 cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_icd cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_intel_subgroups cl_intel_required_subgroup_size cl_intel_subgroups_short cl_khr_spir cl_intel_accelerator cl_intel_driver_diagnostics cl_khr_priority_hints cl_khr_throttle_hints cl_khr_create_command_queue cl_intel_subgroups_char cl_intel_subgroups_long cl_khr_il_program cl_khr_fp64 cl_khr_subgroups cl_intel_spirv_device_side_avc_motion_estimation cl_intel_spirv_media_block_io cl_intel_spirv_subgroups cl_khr_spirv_no_integer_wrap_decoration cl_intel_unified_shared_memory_preview cl_khr_mipmap_image cl_khr_mipmap_image_writes cl_intel_planar_yuv cl_intel_packed_yuv cl_intel_motion_estimation cl_intel_device_side_avc_motion_estimation cl_intel_advanced_motion_estimation cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_image2d_from_buffer cl_khr_depth_images cl_intel_media_block_io cl_khr_3d_image_writes cl_khr_gl_sharing cl_khr_gl_depth_images cl_khr_gl_event cl_khr_gl_msaa_sharing cl_intel_dx9_media_sharing cl_khr_dx9_media_sharing cl_khr_d3d10_sharing cl_khr_d3d11_sharing cl_intel_d3d11_nv12_media_sharing cl_intel_unified_sharing cl_intel_simultaneous_sharing 
+  CL_PLATFORM_HOST_TIMER_RESOLUTION               100
+  CL_PLATFORM_ICD_SUFFIX_KHR                      INTEL
+
+[NV/*]       CL_PLATFORM_NAME                                NVIDIA CUDA
+[NV/*]     #DEVICES                                          1
+[NV/0]       CL_DEVICE_NAME                                  GeForce MX150
+[NV/0]       CL_DEVICE_VENDOR                                NVIDIA Corporation
+[NV/0]       CL_DEVICE_VENDOR_ID                             0x10de
+[NV/0]       CL_DEVICE_VERSION                               OpenCL 1.2 CUDA
+[NV/0]       CL_DRIVER_VERSION                               457.49
+[NV/0]       CL_DEVICE_OPENCL_C_VERSION                      OpenCL C 1.2 
+[NV/0]       CL_DEVICE_TYPE                                  CL_DEVICE_TYPE_GPU
+[NV/0]       CL_DEVICE_PCI_BUS_ID_NV                         1
+[NV/0]       CL_DEVICE_PCI_SLOT_ID_NV                        0
+[NV/0]       CL_DEVICE_PROFILE                               FULL_PROFILE
+[NV/0]       CL_DEVICE_AVAILABLE                             CL_TRUE
+[NV/0]       CL_DEVICE_COMPILER_AVAILABLE                    CL_TRUE
+[NV/0]       CL_DEVICE_LINKER_AVAILABLE                      CL_TRUE
+[NV/0]       CL_DEVICE_MAX_COMPUTE_UNITS                     3
+[NV/0]       CL_DEVICE_MAX_CLOCK_FREQUENCY                   1531
+[NV/0]       CL_DEVICE_COMPUTE_CAPABILITY_MAJOR_NV           6
+[NV/0]       CL_DEVICE_COMPUTE_CAPABILITY_MINOR_NV           1
+[NV/0]       CL_DEVICE_PARTITION_MAX_SUB_DEVICES             1
+[NV/0]       CL_DEVICE_PARTITION_PROPERTIES                  CL_NONE
+[NV/0]       CL_DEVICE_PARTITION_AFFINITY_DOMAIN             
+[NV/0]       CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS              3
+[NV/0]       CL_DEVICE_MAX_WORK_ITEM_SIZES                   1024 1024 64
+[NV/0]       CL_DEVICE_MAX_WORK_GROUP_SIZE                   1024
+[NV/0]       CL_KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE    32
+[NV/0]       CL_DEVICE_WARP_SIZE_NV                          32
+[NV/0]       CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR           1
+[NV/0]       CL_DEVICE_NATIVE_VECTOR_WIDTH_CHAR              1
+[NV/0]       CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT          1
+[NV/0]       CL_DEVICE_NATIVE_VECTOR_WIDTH_SHORT             1
+[NV/0]       CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT            1
+[NV/0]       CL_DEVICE_NATIVE_VECTOR_WIDTH_INT               1
+[NV/0]       CL_DEVICE_PREFERRED_VECTOR_WIDTH_LONG           1
+[NV/0]       CL_DEVICE_NATIVE_VECTOR_WIDTH_LONG              1
+[NV/0]       CL_DEVICE_PREFERRED_VECTOR_WIDTH_HALF           0
+[NV/0]       CL_DEVICE_NATIVE_VECTOR_WIDTH_HALF              0
+[NV/0]       CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT          1
+[NV/0]       CL_DEVICE_NATIVE_VECTOR_WIDTH_FLOAT             1
+[NV/0]       CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE         1
+[NV/0]       CL_DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE            1
+[NV/0]       CL_DEVICE_SINGLE_FP_CONFIG                      CL_FP_DENORM | CL_FP_INF_NAN | CL_FP_ROUND_TO_NEAREST | CL_FP_ROUND_TO_ZERO | CL_FP_ROUND_TO_INF | CL_FP_FMA | CL_FP_CORRECTLY_ROUNDED_DIVIDE_SQRT
+[NV/0]       CL_DEVICE_DOUBLE_FP_CONFIG                      CL_FP_DENORM | CL_FP_INF_NAN | CL_FP_ROUND_TO_NEAREST | CL_FP_ROUND_TO_ZERO | CL_FP_ROUND_TO_INF | CL_FP_FMA
+[NV/0]       CL_DEVICE_ADDRESS_BITS                          64
+[NV/0]       CL_DEVICE_ENDIAN_LITTLE                         CL_TRUE
+[NV/0]       CL_DEVICE_GLOBAL_MEM_SIZE                       2147483648
+[NV/0]       CL_DEVICE_ERROR_CORRECTION_SUPPORT              CL_FALSE
+[NV/0]       CL_DEVICE_MAX_MEM_ALLOC_SIZE                    536870912
+[NV/0]       CL_DEVICE_HOST_UNIFIED_MEMORY                   CL_FALSE
+[NV/0]       CL_DEVICE_INTEGRATED_MEMORY_NV                  CL_FALSE
+[NV/0]       CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE              128
+[NV/0]       CL_DEVICE_MEM_BASE_ADDR_ALIGN                   4096
+[NV/0]       CL_DEVICE_GLOBAL_MEM_CACHE_TYPE                 CL_READ_WRITE_CACHE
+[NV/0]       CL_DEVICE_GLOBAL_MEM_CACHE_SIZE                 147456
+[NV/0]       CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE             128
+[NV/0]       CL_DEVICE_IMAGE_SUPPORT                         CL_TRUE
+[NV/0]       CL_DEVICE_MAX_SAMPLERS                          32
+[NV/0]       CL_DEVICE_IMAGE_MAX_BUFFER_SIZE                 268435456
+[NV/0]       CL_DEVICE_IMAGE_MAX_ARRAY_SIZE                  2048
+[NV/0]       CL_DEVICE_IMAGE2D_MAX_HEIGHT                    32768
+[NV/0]       CL_DEVICE_IMAGE2D_MAX_WIDTH                     16384
+[NV/0]       CL_DEVICE_IMAGE3D_MAX_HEIGHT                    16384
+[NV/0]       CL_DEVICE_IMAGE3D_MAX_WIDTH                     16384
+[NV/0]       CL_DEVICE_IMAGE3D_MAX_DEPTH                     16384
+[NV/0]       CL_DEVICE_MAX_READ_IMAGE_ARGS                   256
+[NV/0]       CL_DEVICE_MAX_WRITE_IMAGE_ARGS                  16
+[NV/0]       CL_DEVICE_LOCAL_MEM_TYPE                        CL_LOCAL
+[NV/0]       CL_DEVICE_LOCAL_MEM_SIZE                        49152
+[NV/0]       CL_DEVICE_REGISTERS_PER_BLOCK_NV                65536
+[NV/0]       CL_DEVICE_MAX_CONSTANT_ARGS                     9
+[NV/0]       CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE              65536
+[NV/0]       CL_DEVICE_MAX_PARAMETER_SIZE                    4352
+[NV/0]       CL_DEVICE_QUEUE_PROPERTIES                      CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE | CL_QUEUE_PROFILING_ENABLE
+[NV/0]       CL_DEVICE_PREFERRED_INTEROP_USER_SYNC           CL_FALSE
+[NV/0]       CL_DEVICE_PROFILING_TIMER_RESOLUTION            1000
+[NV/0]       CL_DEVICE_EXECUTION_CAPABILITIES                CL_EXEC_KERNEL
+[NV/0]       CL_DEVICE_KERNEL_EXEC_TIMEOUT_NV                CL_TRUE
+[NV/0]       CL_DEVICE_GPU_OVERLAP_NV                        CL_TRUE
+[NV/0]       CL_DEVICE_ATTRIBUTE_ASYNC_ENGINE_COUNT_NV       5
+[NV/0]       CL_DEVICE_PRINTF_BUFFER_SIZE                    1048576
+[NV/0]       CL_DEVICE_BUILT_IN_KERNELS                      
+[NV/0]       CL_DEVICE_EXTENSIONS                            cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_khr_fp64 cl_khr_byte_addressable_store cl_khr_icd cl_khr_gl_sharing cl_nv_compiler_options cl_nv_device_attribute_query cl_nv_pragma_unroll cl_nv_d3d10_sharing cl_khr_d3d10_sharing cl_nv_d3d11_sharing cl_nv_copy_opts cl_nv_create_buffer cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_device_uuid
+
+[INTEL/*]    CL_PLATFORM_NAME                                Intel(R) OpenCL HD Graphics
+[INTEL/*]  #DEVICES                                          1
+[INTEL/0]    CL_DEVICE_NAME                                  Intel(R) UHD Graphics 620
+[INTEL/0]    CL_DEVICE_VENDOR                                Intel(R) Corporation
+[INTEL/0]    CL_DEVICE_VENDOR_ID                             0x8086
+[INTEL/0]    CL_DEVICE_VERSION                               OpenCL 2.1 NEO 
+[INTEL/0]    CL_DRIVER_VERSION                               27.20.100.8729
+[INTEL/0]    CL_DEVICE_OPENCL_C_VERSION                      OpenCL C 2.0 
+[INTEL/0]    CL_DEVICE_TYPE                                  CL_DEVICE_TYPE_GPU
+[INTEL/0]    CL_DEVICE_PROFILE                               FULL_PROFILE
+[INTEL/0]    CL_DEVICE_AVAILABLE                             CL_TRUE
+[INTEL/0]    CL_DEVICE_COMPILER_AVAILABLE                    CL_TRUE
+[INTEL/0]    CL_DEVICE_LINKER_AVAILABLE                      CL_TRUE
+[INTEL/0]    CL_DEVICE_MAX_COMPUTE_UNITS                     24
+[INTEL/0]    CL_DEVICE_MAX_CLOCK_FREQUENCY                   1100
+[INTEL/0]    CL_DEVICE_PARTITION_MAX_SUB_DEVICES             0
+[INTEL/0]    CL_DEVICE_PARTITION_PROPERTIES                  CL_NONE
+[INTEL/0]    CL_DEVICE_PARTITION_AFFINITY_DOMAIN             
+[INTEL/0]    CL_DEVICE_MAX_WORK_ITEM_DIMENSIONS              3
+[INTEL/0]    CL_DEVICE_MAX_WORK_ITEM_SIZES                   256 256 256
+[INTEL/0]    CL_DEVICE_MAX_WORK_GROUP_SIZE                   256
+[INTEL/0]    CL_KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE    32
+[INTEL/0]    CL_DEVICE_MAX_NUM_SUB_GROUPS                    32
+[INTEL/0]    CL_DEVICE_SUB_GROUP_SIZES_INTEL                 8 16 32
+[INTEL/0]    CL_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR           16
+[INTEL/0]    CL_DEVICE_NATIVE_VECTOR_WIDTH_CHAR              16
+[INTEL/0]    CL_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT          8
+[INTEL/0]    CL_DEVICE_NATIVE_VECTOR_WIDTH_SHORT             8
+[INTEL/0]    CL_DEVICE_PREFERRED_VECTOR_WIDTH_INT            4
+[INTEL/0]    CL_DEVICE_NATIVE_VECTOR_WIDTH_INT               4
+[INTEL/0]    CL_DEVICE_PREFERRED_VECTOR_WIDTH_LONG           1
+[INTEL/0]    CL_DEVICE_NATIVE_VECTOR_WIDTH_LONG              1
+[INTEL/0]    CL_DEVICE_PREFERRED_VECTOR_WIDTH_HALF           8
+[INTEL/0]    CL_DEVICE_NATIVE_VECTOR_WIDTH_HALF              8
+[INTEL/0]    CL_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT          1
+[INTEL/0]    CL_DEVICE_NATIVE_VECTOR_WIDTH_FLOAT             1
+[INTEL/0]    CL_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE         1
+[INTEL/0]    CL_DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE            1
+[INTEL/0]    CL_DEVICE_HALF_FP_CONFIG                        CL_FP_DENORM | CL_FP_INF_NAN | CL_FP_ROUND_TO_NEAREST | CL_FP_ROUND_TO_ZERO | CL_FP_ROUND_TO_INF | CL_FP_FMA
+[INTEL/0]    CL_DEVICE_SINGLE_FP_CONFIG                      CL_FP_DENORM | CL_FP_INF_NAN | CL_FP_ROUND_TO_NEAREST | CL_FP_ROUND_TO_ZERO | CL_FP_ROUND_TO_INF | CL_FP_FMA | CL_FP_CORRECTLY_ROUNDED_DIVIDE_SQRT
+[INTEL/0]    CL_DEVICE_DOUBLE_FP_CONFIG                      CL_FP_DENORM | CL_FP_INF_NAN | CL_FP_ROUND_TO_NEAREST | CL_FP_ROUND_TO_ZERO | CL_FP_ROUND_TO_INF | CL_FP_FMA
+[INTEL/0]    CL_DEVICE_ADDRESS_BITS                          64
+[INTEL/0]    CL_DEVICE_ENDIAN_LITTLE                         CL_TRUE
+[INTEL/0]    CL_DEVICE_GLOBAL_MEM_SIZE                       6819401728
+[INTEL/0]    CL_DEVICE_ERROR_CORRECTION_SUPPORT              CL_FALSE
+[INTEL/0]    CL_DEVICE_MAX_MEM_ALLOC_SIZE                    3409700864
+[INTEL/0]    CL_DEVICE_HOST_UNIFIED_MEMORY                   CL_TRUE
+[INTEL/0]    CL_DEVICE_SVM_CAPABILITIES                      CL_DEVICE_SVM_COARSE_GRAIN_BUFFER | CL_DEVICE_SVM_FINE_GRAIN_BUFFER | CL_DEVICE_SVM_ATOMICS
+[INTEL/0]    CL_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE              128
+[INTEL/0]    CL_DEVICE_MEM_BASE_ADDR_ALIGN                   1024
+[INTEL/0]    CL_DEVICE_PREFERRED_PLATFORM_ATOMIC_ALIGNMENT   64
+[INTEL/0]    CL_DEVICE_PREFERRED_GLOBAL_ATOMIC_ALIGNMENT     64
+[INTEL/0]    CL_DEVICE_PREFERRED_LOCAL_ATOMIC_ALIGNMENT      64
+[INTEL/0]    CL_DEVICE_MAX_GLOBAL_VARIABLE_SIZE              65536
+[INTEL/0]    CL_DEVICE_GLOBAL_VARIABLE_PREFERRED_TOTAL_SIZE  3409700864
+[INTEL/0]    CL_DEVICE_GLOBAL_MEM_CACHE_TYPE                 CL_READ_WRITE_CACHE
+[INTEL/0]    CL_DEVICE_GLOBAL_MEM_CACHE_SIZE                 524288
+[INTEL/0]    CL_DEVICE_GLOBAL_MEM_CACHELINE_SIZE             64
+[INTEL/0]    CL_DEVICE_IMAGE_SUPPORT                         CL_TRUE
+[INTEL/0]    CL_DEVICE_MAX_SAMPLERS                          16
+[INTEL/0]    CL_DEVICE_IMAGE_MAX_BUFFER_SIZE                 213106304
+[INTEL/0]    CL_DEVICE_IMAGE_MAX_ARRAY_SIZE                  2048
+[INTEL/0]    CL_DEVICE_IMAGE_BASE_ADDRESS_ALIGNMENT          4
+[INTEL/0]    CL_DEVICE_IMAGE_PITCH_ALIGNMENT                 4
+[INTEL/0]    CL_DEVICE_IMAGE2D_MAX_HEIGHT                    16384
+[INTEL/0]    CL_DEVICE_IMAGE2D_MAX_WIDTH                     16384
+[INTEL/0]    CL_DEVICE_PLANAR_YUV_MAX_HEIGHT_INTEL           16352
+[INTEL/0]    CL_DEVICE_PLANAR_YUV_MAX_WIDTH_INTEL            16384
+[INTEL/0]    CL_DEVICE_IMAGE3D_MAX_HEIGHT                    16384
+[INTEL/0]    CL_DEVICE_IMAGE3D_MAX_WIDTH                     16384
+[INTEL/0]    CL_DEVICE_IMAGE3D_MAX_DEPTH                     2048
+[INTEL/0]    CL_DEVICE_MAX_READ_IMAGE_ARGS                   128
+[INTEL/0]    CL_DEVICE_MAX_WRITE_IMAGE_ARGS                  128
+[INTEL/0]    CL_DEVICE_MAX_READ_WRITE_IMAGE_ARGS             128
+[INTEL/0]    CL_DEVICE_MAX_PIPE_ARGS                         16
+[INTEL/0]    CL_DEVICE_PIPE_MAX_ACTIVE_RESERVATIONS          1
+[INTEL/0]    CL_DEVICE_PIPE_MAX_PACKET_SIZE                  1024
+[INTEL/0]    CL_DEVICE_LOCAL_MEM_TYPE                        CL_LOCAL
+[INTEL/0]    CL_DEVICE_LOCAL_MEM_SIZE                        65536
+[INTEL/0]    CL_DEVICE_MAX_CONSTANT_ARGS                     8
+[INTEL/0]    CL_DEVICE_MAX_CONSTANT_BUFFER_SIZE              3409700864
+[INTEL/0]    CL_DEVICE_MAX_PARAMETER_SIZE                    2048
+[INTEL/0]    CL_DEVICE_QUEUE_ON_HOST_PROPERTIES              CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE | CL_QUEUE_PROFILING_ENABLE
+[INTEL/0]    CL_DEVICE_QUEUE_ON_DEVICE_PROPERTIES            CL_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE | CL_QUEUE_PROFILING_ENABLE
+[INTEL/0]    CL_DEVICE_QUEUE_ON_DEVICE_PREFERRED_SIZE        131072
+[INTEL/0]    CL_DEVICE_QUEUE_ON_DEVICE_MAX_SIZE              67108864
+[INTEL/0]    CL_DEVICE_MAX_ON_DEVICE_QUEUES                  1
+[INTEL/0]    CL_DEVICE_MAX_ON_DEVICE_EVENTS                  1024
+[INTEL/0]    CL_DEVICE_PREFERRED_INTEROP_USER_SYNC           CL_TRUE
+[INTEL/0]    CL_DEVICE_NUM_SIMULTANEOUS_INTEROPS_INTEL       1
+[INTEL/0]    CL_DEVICE_SIMULTANEOUS_INTEROPS_INTEL           CL_GL_CONTEXT_KHR CL_WGL_HDC_KHR CL_CONTEXT_ADAPTER_D3D9_KHR CL_CONTEXT_D3D9_DEVICE_INTEL CL_CONTEXT_ADAPTER_D3D9EX_KHR CL_CONTEXT_D3D9EX_DEVICE_INTEL CL_CONTEXT_ADAPTER_DXVA_KHR CL_CONTEXT_DXVA_DEVICE_INTEL CL_CONTEXT_D3D10_DEVICE_KHR CL_CONTEXT_D3D11_DEVICE_KHR
+[INTEL/0]    CL_DEVICE_PROFILING_TIMER_RESOLUTION            83
+[INTEL/0]    CL_DEVICE_EXECUTION_CAPABILITIES                CL_EXEC_KERNEL
+[INTEL/0]    CL_DEVICE_SUB_GROUP_INDEPENDENT_FORWARD_PROGRESS  CL_TRUE
+[INTEL/0]    CL_DEVICE_IL_VERSION                            SPIR-V_1.2 
+[INTEL/0]    CL_DEVICE_SPIR_VERSIONS                         1.2 
+[INTEL/0]    CL_DEVICE_PRINTF_BUFFER_SIZE                    4194304
+[INTEL/0]    CL_DEVICE_BUILT_IN_KERNELS                      block_motion_estimate_intel;block_advanced_motion_estimate_check_intel;block_advanced_motion_estimate_bidirectional_check_intel;
+[INTEL/0]    CL_DEVICE_ME_VERSION_INTEL                      2
+[INTEL/0]    CL_DEVICE_AVC_ME_VERSION_INTEL                  1
+[INTEL/0]    CL_DEVICE_AVC_ME_SUPPORTS_TEXTURE_SAMPLER_USE_INTEL  CL_TRUE
+[INTEL/0]    CL_DEVICE_AVC_ME_SUPPORTS_PREEMPTION_INTEL      CL_FALSE
+[INTEL/0]    CL_DEVICE_EXTENSIONS                            cl_khr_byte_addressable_store cl_khr_fp16 cl_khr_global_int32_base_atomics cl_khr_global_int32_extended_atomics cl_khr_icd cl_khr_local_int32_base_atomics cl_khr_local_int32_extended_atomics cl_intel_subgroups cl_intel_required_subgroup_size cl_intel_subgroups_short cl_khr_spir cl_intel_accelerator cl_intel_driver_diagnostics cl_khr_priority_hints cl_khr_throttle_hints cl_khr_create_command_queue cl_intel_subgroups_char cl_intel_subgroups_long cl_khr_il_program cl_khr_fp64 cl_khr_subgroups cl_intel_spirv_device_side_avc_motion_estimation cl_intel_spirv_media_block_io cl_intel_spirv_subgroups cl_khr_spirv_no_integer_wrap_decoration cl_intel_unified_shared_memory_preview cl_khr_mipmap_image cl_khr_mipmap_image_writes cl_intel_planar_yuv cl_intel_packed_yuv cl_intel_motion_estimation cl_intel_device_side_avc_motion_estimation cl_intel_advanced_motion_estimation cl_khr_int64_base_atomics cl_khr_int64_extended_atomics cl_khr_image2d_from_buffer cl_khr_depth_images cl_intel_media_block_io cl_khr_3d_image_writes cl_khr_gl_sharing cl_khr_gl_depth_images cl_khr_gl_event cl_khr_gl_msaa_sharing cl_intel_dx9_media_sharing cl_khr_dx9_media_sharing cl_khr_d3d10_sharing cl_khr_d3d11_sharing cl_intel_d3d11_nv12_media_sharing cl_intel_unified_sharing cl_intel_simultaneous_sharing 
+
+
+ 
+2021-09-07 22:14:42,333  INFO [scheduling-2] (CLInfoTools.java:144) - init openCLDeviceDTOList success, openCLDeviceDTOList=[{"clDeviceGlobalMemSize":2147483648,"clDeviceName":"GeForce MX150","clDeviceOpenCLCVersion":"OpenCL C 1.2","clDeviceType":"CL_DEVICE_TYPE_GPU","clDeviceVendor":"NVIDIA Corporation","clDeviceVendorId":"0x10de","clDeviceVersion":"OpenCL 1.2 CUDA","clDriverVersion":"457.49","clPlatformICDSuffixKHR":"NV","id":0},{"clDeviceGlobalMemSize":6819401728,"clDeviceName":"Intel(R) UHD Graphics 620","clDeviceOpenCLCVersion":"OpenCL C 2.0","clDeviceType":"CL_DEVICE_TYPE_GPU","clDeviceVendor":"Intel(R) Corporation","clDeviceVendorId":"0x8086","clDeviceVersion":"OpenCL 2.1 NEO","clDriverVersion":"27.20.100.8729","clPlatformICDSuffixKHR":"INTEL","id":0}] 
+2021-09-07 22:14:42,333  INFO [scheduling-2] (MainFlowService.java:31) - push mainFlowStateMachine from INIT to PREPARE success 
+2021-09-07 22:14:42,334  INFO [scheduling-2] (MainFlowService.java:36) - trying push mainFlowStateMachine from PREPARE to LOGIN 
+2021-09-07 22:14:42,393  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=UserSupport, method=login, param=[{"password":"11111111","userMark":"15696756582"}] 
+2021-09-07 22:14:43,271  INFO [scheduling-2] (UserSupport.java:37) - userClient.login, loginVO=com.iteknical.fusion.user.vo.LoginVO@59e134bd, site=sweeney, resultDTO={"code":1,"data":"60ddeadf2bae4b918ca582cbbc256640","message":"success","success":true} 
+2021-09-07 22:14:43,278  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=putSweeneyHardwareDTO, param=["60ddeadf2bae4b918ca582cbbc256640",{"agentKey":"PF17JQVU","agentVersion":"1.8-SNAPSHOT","openCLDeviceDTOList":[{"clDeviceGlobalMemSize":2147483648,"clDeviceName":"GeForce MX150","clDeviceOpenCLCVersion":"OpenCL C 1.2","clDeviceType":"CL_DEVICE_TYPE_GPU","clDeviceVendor":"NVIDIA Corporation","clDeviceVendorId":"0x10de","clDeviceVersion":"OpenCL 1.2 CUDA","clDriverVersion":"457.49","clPlatformICDSuffixKHR":"NV","id":0},{"clDeviceGlobalMemSize":6819401728,"clDeviceName":"Intel(R) UHD Graphics 620","clDeviceOpenCLCVersion":"OpenCL C 2.0","clDeviceType":"CL_DEVICE_TYPE_GPU","clDeviceVendor":"Intel(R) Corporation","clDeviceVendorId":"0x8086","clDeviceVersion":"OpenCL 2.1 NEO","clDriverVersion":"27.20.100.8729","clPlatformICDSuffixKHR":"INTEL","id":0}],"oshiHardwareDTO":{"firmwareDTO":{"description":"7PCN27WW","manufacturer":"LENOVO","name":"7PCN27WW","version":"LENOVO - 1"},"hostName":"DESKTOP-A48DR00","macAddressSet":["60:c5:47:06:6f:88"],"manufacturer":"LENOVO","memoryDTO":{"memeryTotal":17048506368,"swapTotal":2550136832},"model":"81GY","processorDTO":{"logicalProcessorCount":8,"name":"Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz","physicalPackageCount":1,"physicalProcessorCount":4,"processorId":"BFEBFBFF000806EA"},"serialNumber":"PF17JQVU"}}] 
+2021-09-07 22:14:43,426  INFO [scheduling-2] (WednesdaySupport.java:43) - sweeneyClient.putSweeneyHardwareDTO, sessionKey=60ddeadf2bae4b918ca582cbbc256640, sweeneyHardwareDTO={"agentKey":"PF17JQVU","agentVersion":"1.8-SNAPSHOT","openCLDeviceDTOList":[{"clDeviceGlobalMemSize":2147483648,"clDeviceName":"GeForce MX150","clDeviceOpenCLCVersion":"OpenCL C 1.2","clDeviceType":"CL_DEVICE_TYPE_GPU","clDeviceVendor":"NVIDIA Corporation","clDeviceVendorId":"0x10de","clDeviceVersion":"OpenCL 1.2 CUDA","clDriverVersion":"457.49","clPlatformICDSuffixKHR":"NV","id":0},{"clDeviceGlobalMemSize":6819401728,"clDeviceName":"Intel(R) UHD Graphics 620","clDeviceOpenCLCVersion":"OpenCL C 2.0","clDeviceType":"CL_DEVICE_TYPE_GPU","clDeviceVendor":"Intel(R) Corporation","clDeviceVendorId":"0x8086","clDeviceVersion":"OpenCL 2.1 NEO","clDriverVersion":"27.20.100.8729","clPlatformICDSuffixKHR":"INTEL","id":0}],"oshiHardwareDTO":{"firmwareDTO":{"description":"7PCN27WW","manufacturer":"LENOVO","name":"7PCN27WW","version":"LENOVO - 1"},"hostName":"DESKTOP-A48DR00","macAddressSet":["60:c5:47:06:6f:88"],"manufacturer":"LENOVO","memoryDTO":{"memeryTotal":17048506368,"swapTotal":2550136832},"model":"81GY","processorDTO":{"logicalProcessorCount":8,"name":"Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz","physicalPackageCount":1,"physicalProcessorCount":4,"processorId":"BFEBFBFF000806EA"},"serialNumber":"PF17JQVU"}}, resultDTO={"code":1,"data":3,"message":"success","success":true} 
+2021-09-07 22:14:43,434  INFO [scheduling-2] (MainFlowService.java:38) - push mainFlowStateMachine from PREPARE to LOGIN success 
+2021-09-07 22:14:43,547  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":true,"message":"success","success":true} 
+2021-09-07 22:14:43,547  INFO [scheduling-2] (MainFlowService.java:44) - trying push mainFlowStateMachine from LOGIN to SERVER_JOB 
+2021-09-07 22:14:43,548  INFO [scheduling-2] (MainFlowService.java:46) - push mainFlowStateMachine from LOGIN to SERVER_JOB success 
+2021-09-07 22:14:44,302  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=getJob, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:14:44,493  INFO [scheduling-1] (WednesdaySupport.java:57) - sweeneyClient.getJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":{"attackMode":7,"hashMode":0,"mask":"?d?d?d?d?d?d?d?d?d?d","type":"keyspace"},"message":"success","success":true} 
+2021-09-07 22:14:44,501  INFO [scheduling-1] (HashcatCore.java:319) - getKeyspace, hashMode=0, attackMode=7, mask=?d?d?d?d?d?d?d?d?d?d 
+2021-09-07 22:14:44,502  INFO [scheduling-1] (ProcessTools.java:61) - start executeAndGetOutput, commandList=["D:\\graduation-project\\application\\sweeney/bin/hashcat/hashcat64.exe","-m","0","-a","7","?d?d?d?d?d?d?d?d?d?d","--keyspace"], workingDir=D:\graduation-project\application\sweeney\bin\hashcat, waitSeconds=10, mustSuccess=true 
+2021-09-07 22:14:44,510  INFO [process-stream-reader-0] (ProcessTools.java:79) - start process InputStream 
+2021-09-07 22:14:44,550  INFO [process-stream-reader-0] (ProcessTools.java:99) - finish process InputStream 
+2021-09-07 22:14:44,724 af96b877511248dd8349a56ef0ce6a9e INFO [http-nio-8004-exec-5] (ApiAspect.java:83) - rest request, param=[] /sweeney/my/api/getUserIndex
+2021-09-07 22:14:44,724 af96b877511248dd8349a56ef0ce6a9e INFO [http-nio-8004-exec-5] (ApiAspect.java:89) - rest respond success, param=[], respond={"code":1,"data":"http://localhost:8001/fusion-user/user/index?site=sweeney","message":"success","success":true} /sweeney/my/api/getUserIndex
+2021-09-07 22:14:46,511  ERROR [scheduling-1] (ProcessTools.java:124) - executeAndGetOutput error, commandList=["D:\\graduation-project\\application\\sweeney/bin/hashcat/hashcat64.exe","-m","0","-a","7","?d?d?d?d?d?d?d?d?d?d","--keyspace"], workingDir=D:\graduation-project\application\sweeney\bin\hashcat, waitSeconds=10, mustSuccess=true, output=Usage: D:\graduation-project\application\sweeney\bin\hashcat\hashcat64.exe [options]... hash|hashfile|hccapxfile [dictionary|mask|directory]...
+
+Try --help for more help.
+ 
+2021-09-07 22:14:46,513  ERROR [scheduling-1] (ScheduledAspect.java:56) - scheduled invoke error, className=HashcatHolder, method=getJobAndRunAndSubmitResult 
+com.iteknical.sweeney.exception.SweeneyException: Usage: D:\graduation-project\application\sweeney\bin\hashcat\hashcat64.exe [options]... hash|hashfile|hccapxfile [dictionary|mask|directory]...
+
+Try --help for more help.
+
+	at com.iteknical.sweeney.tools.ProcessTools.executeAndGetOutput(ProcessTools.java:127)
+	at com.iteknical.sweeney.tools.ProcessTools.executeAndGetOutput(ProcessTools.java:47)
+	at com.iteknical.sweeney.computing.core.HashcatCore.getKeyspace(HashcatCore.java:320)
+	at com.iteknical.sweeney.computing.HashcatHolder.getJobAndRunAndSubmitResult(HashcatHolder.java:83)
+	at com.iteknical.sweeney.computing.HashcatHolder$$FastClassBySpringCGLIB$$fa8bc751.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88)
+	at com.iteknical.sweeney.tools.ScheduledAspect.doScheduledFlowAround(ScheduledAspect.java:50)
+	at sun.reflect.GeneratedMethodAccessor38.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:175)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.iteknical.sweeney.computing.HashcatHolder$$EnhancerBySpringCGLIB$$a5ad70a8.getJobAndRunAndSubmitResult(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84)
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.runAndReset(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+2021-09-07 22:14:47,526  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=getJob, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:14:47,697  INFO [scheduling-2] (WednesdaySupport.java:57) - sweeneyClient.getJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:14:48,604  INFO [scheduling-2] (MainFlowService.java:57) - trying push mainFlowStateMachine from SERVER_JOB to IDLE_JOB 
+2021-09-07 22:14:48,606  INFO [scheduling-2] (MainFlowService.java:59) - push mainFlowStateMachine from SERVER_JOB to IDLE_JOB success 
+2021-09-07 22:15:38,270  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:15:38,270  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:16:38,281  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:16:38,281  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:17:38,283  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:17:38,283  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:18:38,288  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:18:38,288  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:19:38,300  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:19:38,300  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:19:38,300  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:19:38,301  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:19:38,379  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:19:38,379  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:19:38,379  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:19:38,388  INFO [scheduling-2] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:19:38,388  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:19:38,953  INFO [scheduling-1] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:20:38,308  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:20:38,308  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:21:38,320  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:21:38,320  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:22:38,329  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:22:38,329  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:22:42,721 ef9039ff4c1c47a88f272cdc6850f812 INFO [http-nio-8004-exec-1] (ApiAspect.java:83) - rest request, param=[] /sweeney/my/api/getUserIndex
+2021-09-07 22:22:42,721 ef9039ff4c1c47a88f272cdc6850f812 INFO [http-nio-8004-exec-1] (ApiAspect.java:89) - rest respond success, param=[], respond={"code":1,"data":"http://localhost:8001/fusion-user/user/index?site=sweeney","message":"success","success":true} /sweeney/my/api/getUserIndex
+2021-09-07 22:23:38,337  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:23:38,338  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:24:38,339  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:24:38,339  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:24:38,387  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:24:38,388  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:24:38,389  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:24:38,389  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:24:38,390  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:24:38,475  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:24:38,477  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:24:39,366  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:25:38,342  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:25:38,342  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:26:38,355  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:26:38,355  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:27:38,357  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:27:38,358  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:28:38,369  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:28:38,369  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:29:38,385  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:29:38,385  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:29:38,401  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:29:38,401  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:29:38,402  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:29:38,479  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:29:38,479  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:29:38,551  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:29:38,551  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:29:39,325  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:30:38,386  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:30:38,387  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:31:38,403  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:31:38,403  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:32:38,403  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:32:38,404  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:33:38,415  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:33:38,415  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:34:38,413  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:34:38,413  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:34:38,414  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:34:38,429  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:34:38,429  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:34:38,556  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:34:38,556  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:34:38,616  INFO [scheduling-2] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:34:38,617  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:34:39,104  INFO [scheduling-1] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:35:38,436  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:35:38,437  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:36:38,449  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:36:38,449  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:37:38,459  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:37:38,459  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:38:38,465  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:38:38,466  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:39:38,430  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:39:38,430  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:39:38,430  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:39:38,477  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:39:38,477  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:39:38,621  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:39:38,622  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:39:38,698  INFO [scheduling-2] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:39:38,698  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:39:38,876  INFO [scheduling-1] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:40:38,489  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:40:38,490  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:41:38,494  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:41:38,495  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:42:38,505  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:42:38,505  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:43:38,517  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:43:38,517  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:44:15,290 8fae2ad343dc4be6b2f47c7507ee73c6 INFO [http-nio-8004-exec-7] (ApiAspect.java:83) - rest request, param=[] /sweeney/my/api/getUserIndex
+2021-09-07 22:44:15,290 8fae2ad343dc4be6b2f47c7507ee73c6 INFO [http-nio-8004-exec-7] (ApiAspect.java:89) - rest respond success, param=[], respond={"code":1,"data":"http://localhost:8001/fusion-user/user/index?site=sweeney","message":"success","success":true} /sweeney/my/api/getUserIndex
+2021-09-07 22:44:38,438  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:44:38,438  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:44:38,439  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:44:38,532  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:44:38,532  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:44:38,706  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:44:38,706  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:44:38,766  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:44:38,766  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:44:39,570  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:45:38,546  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:45:38,548  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:46:38,562  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:46:38,562  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:47:38,576  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:47:38,576  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:48:38,585  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:48:38,585  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:49:38,449  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:49:38,450  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:49:38,450  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:49:38,591  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:49:38,592  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:49:38,780  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:49:38,781  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:49:38,854  INFO [scheduling-2] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:49:38,854  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:49:39,485  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:50:38,596  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:50:38,596  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:51:38,610  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:51:38,610  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:52:38,614  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:52:38,614  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:53:38,624  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:53:38,624  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:54:38,452  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:54:38,452  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:54:38,452  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:54:38,643  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:54:38,644  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:54:38,866  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:54:38,867  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:54:38,938  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:54:38,939  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:54:39,141  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:55:38,658  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:55:38,659  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:56:38,666  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:56:38,667  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:57:38,677  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:57:38,677  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:58:38,683  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:58:38,683  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:59:38,459  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 22:59:38,459  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:59:38,459  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 22:59:38,691  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:59:38,691  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 22:59:38,942  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 22:59:38,942  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 22:59:38,991  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 22:59:38,998  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 22:59:38,998  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:00:38,695  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:00:38,696  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:01:38,709  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:01:38,709  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:02:38,717  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:02:38,717  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:03:38,729  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:03:38,729  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:04:38,474  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 23:04:38,474  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:04:38,475  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:04:38,729  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:04:38,729  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:04:38,999  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:04:39,000  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 23:04:39,089  INFO [scheduling-2] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 23:04:39,089  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:04:39,404  INFO [scheduling-1] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 23:05:38,733  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:05:38,734  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:06:38,738  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:06:38,739  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:07:38,742  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:07:38,742  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:08:38,744  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:08:38,744  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:09:38,485  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 23:09:38,497  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:09:38,498  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:09:38,754  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:09:38,754  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:09:38,967  INFO [scheduling-1] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 23:09:39,103  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:09:39,103  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 23:09:39,164  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 23:09:39,164  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:10:38,762  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:10:38,762  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:11:38,768  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:11:38,769  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:12:38,779  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:12:38,781  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:13:38,792  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:13:38,793  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:14:38,499  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 23:14:38,499  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:14:38,500  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:14:38,799  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:14:38,800  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:14:39,006  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 23:14:39,177  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:14:39,178  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 23:14:39,274  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 23:14:39,275  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:15:38,809  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:15:38,809  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:16:38,818  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:16:38,818  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:17:38,825  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:17:38,825  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:18:38,835  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:18:38,836  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:19:38,503  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 23:19:38,503  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:19:38,503  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:19:38,838  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:19:38,838  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:19:39,283  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:19:39,284  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 23:19:39,393  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 23:19:39,393  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 23:19:39,394  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:20:38,848  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:20:38,848  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:21:38,861  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:21:38,861  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:22:38,870  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:22:38,870  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:23:38,877  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:23:38,877  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:24:38,510  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 23:24:38,510  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:24:38,510  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:24:38,889  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:24:38,889  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:24:39,410  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:24:39,410  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 23:24:39,478  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 23:24:39,478  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:24:39,648  INFO [scheduling-2] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 23:25:38,905  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:25:38,905  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:26:38,918  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:26:38,919  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:27:38,930  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:27:38,930  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:28:38,939  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:28:38,940  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:29:38,517  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 23:29:38,517  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:29:38,517  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:29:38,742  INFO [scheduling-1] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 23:29:38,943  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:29:38,943  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:29:39,479  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:29:39,480  INFO [scheduling-1] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 23:29:39,551  INFO [scheduling-1] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 23:29:39,551  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:30:38,958  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:30:38,958  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:31:38,969  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:31:38,970  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:32:38,974  INFO [scheduling-1] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:32:38,975  INFO [scheduling-1] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:33:38,987  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:33:38,988  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:34:38,533  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=expireHasJobCache, param=[] 
+2021-09-07 23:34:38,534  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:34:38,535  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=WednesdaySupport, method=expireHasJobCache 
+2021-09-07 23:34:38,990  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:34:38,991  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=HashcatHolder, method=reportHashcatStatus 
+2021-09-07 23:34:39,457  INFO [scheduling-1] (WednesdaySupport.java:73) - sweeneyClient.hasJob, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"data":false,"message":"success","success":true} 
+2021-09-07 23:34:39,567  INFO [scheduling-2] (ScheduledAspect.java:47) - scheduled invoke, className=MainFlowStateMachine, method=sendHeartBeat 
+2021-09-07 23:34:39,567  INFO [scheduling-2] (SupportAspect.java:52) - support invoke, className=WednesdaySupport, method=heartbeat, param=["60ddeadf2bae4b918ca582cbbc256640",3] 
+2021-09-07 23:34:39,627  INFO [scheduling-2] (WednesdaySupport.java:50) - sweeneyClient.heartbeat, sessionKey=60ddeadf2bae4b918ca582cbbc256640, agentId=3, resultDTO={"code":1,"message":"success","success":true} 
+2021-09-07 23:34:39,627  INFO [scheduling-2] (ScheduledAspect.java:52) - scheduled invoke success, className=MainFlowStateMachine, method=sendHeartBeat 

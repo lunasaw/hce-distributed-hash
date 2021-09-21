@@ -1,0 +1,129 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-03 15:56:34,640  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8001 (http) 
+2021-09-03 15:56:34,681  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8001"] 
+2021-09-03 15:56:34,682  INFO (DirectJDKLog.java:173) - Starting service [Tomcat] 
+2021-09-03 15:56:34,683  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29] 
+2021-09-03 15:56:35,171  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext 
+2021-09-03 15:56:35,171  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 4536 ms 
+2021-09-03 15:56:36,844  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-09-03 15:56:37,722  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler' 
+2021-09-03 15:56:37,973  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8001"] 
+2021-09-03 15:56:38,064  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting... 
+2021-09-03 15:56:38,155  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8001 (http) with context path '/fusion-user' 
+2021-09-03 15:56:39,363  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed. 
+2021-09-03 15:58:30,362  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-09-03 15:58:30,365  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet' 
+2021-09-03 15:58:30,415  INFO (FrameworkServlet.java:547) - Completed initialization in 50 ms 
+2021-09-03 16:58:08,258  WARN (HikariPool.java:779) - HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s91ms), soft-evicting connections from pool. 
+2021-09-03 17:24:52,603 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2de211c5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:24:57,632 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@22e7dc32 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:02,669 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@557f4820 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:05,372 62bf7ea525e342bb8b92fe4bfb6ace0b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11d7a8e9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:07,683 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d29da5b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:10,378 62bf7ea525e342bb8b92fe4bfb6ace0b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b7c03f7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:12,695 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@25193d7f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:15,385 62bf7ea525e342bb8b92fe4bfb6ace0b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b02a90d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:17,712 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a885fb4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:20,403 62bf7ea525e342bb8b92fe4bfb6ace0b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@396a310b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 18:55:06,401  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m55s693ms). 
+2021-09-03 20:43:29,192  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m52s154ms). 
+2021-09-04 03:55:38,257  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h12m9s250ms). 
+2021-09-05 15:04:42,416  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d11h9m4s157ms). 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 15:18:25,826  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8001 (http) 
+2021-09-07 15:18:25,893  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8001"] 
+2021-09-07 15:18:25,895  INFO (DirectJDKLog.java:173) - Starting service [Tomcat] 
+2021-09-07 15:18:25,896  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29] 
+2021-09-07 15:18:26,808  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext 
+2021-09-07 15:18:26,809  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 11564 ms 
+2021-09-07 15:18:30,487  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-09-07 15:18:32,251  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler' 
+2021-09-07 15:18:32,663  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8001"] 
+2021-09-07 15:18:32,729  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting... 
+2021-09-07 15:18:32,985  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8001 (http) with context path '/fusion-user' 
+2021-09-07 15:18:33,886  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed. 
+2021-09-07 15:20:55,669  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-09-07 15:20:55,674  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet' 
+2021-09-07 15:20:55,737  INFO (FrameworkServlet.java:547) - Completed initialization in 62 ms 
+2021-09-07 15:26:03,554  WARN (HikariPool.java:779) - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s493ms), soft-evicting connections from pool. 
+2021-09-07 16:27:12,271  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s430ms). 
+2021-09-07 16:45:00,090 40b4d1ba4507424dbd0e237052f9eb33 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a08cd3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:45:05,140 40b4d1ba4507424dbd0e237052f9eb33 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@40d4555a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:45:10,201 40b4d1ba4507424dbd0e237052f9eb33 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4320d004 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:45:15,206 40b4d1ba4507424dbd0e237052f9eb33 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5fcc268f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:51:04,139 d8df2086ac9a4e0883bd8765173b5296 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b1e7e88 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:52:18,311 2a90884363134d048866b358c2de36e4 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7f4edfc6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:53:21,361 a7e147c266464329a6bce79c5c2f178c WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16a2b1b0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:53:21,364 c3203e9ff3b84dd6964311b7abab385f WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14c19f9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:53:26,378 c3203e9ff3b84dd6964311b7abab385f WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62262771 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 17:00:42,603  WARN (HikariPool.java:779) - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s798ms), soft-evicting connections from pool. 
+2021-09-07 18:24:31,614  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m47s927ms). 
+2021-09-07 18:43:41,117  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m9s525ms). 
+2021-09-07 19:25:25,708 6c694163c1bf451fa8488c5242e6a588 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2ffc3a12 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 19:25:30,766 6c694163c1bf451fa8488c5242e6a588 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a8476de (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 19:35:15,360  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8001 (http) 
+2021-09-07 19:35:15,377  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8001"] 
+2021-09-07 19:35:15,378  INFO (DirectJDKLog.java:173) - Starting service [Tomcat] 
+2021-09-07 19:35:15,378  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29] 
+2021-09-07 19:35:15,563  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext 
+2021-09-07 19:35:15,563  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 2836 ms 
+2021-09-07 19:35:16,483  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-09-07 19:35:16,942  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler' 
+2021-09-07 19:35:17,036  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8001"] 
+2021-09-07 19:35:17,091  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting... 
+2021-09-07 19:35:17,122  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8001 (http) with context path '/fusion-user' 
+2021-09-07 19:35:17,550  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed. 
+2021-09-07 19:37:20,422  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-09-07 19:37:20,422  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet' 
+2021-09-07 19:37:20,449  INFO (FrameworkServlet.java:547) - Completed initialization in 27 ms 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 19:43:59,408  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8001 (http) 
+2021-09-07 19:43:59,522  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8001"] 
+2021-09-07 19:43:59,523  INFO (DirectJDKLog.java:173) - Starting service [Tomcat] 
+2021-09-07 19:43:59,524  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29] 
+2021-09-07 19:44:00,002  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext 
+2021-09-07 19:44:00,002  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 11936 ms 
+2021-09-07 19:44:04,271  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-09-07 19:44:06,256  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler' 
+2021-09-07 19:44:06,683  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8001"] 
+2021-09-07 19:44:06,719  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting... 
+2021-09-07 19:44:06,841  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8001 (http) with context path '/fusion-user' 
+2021-09-07 19:44:08,217  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed. 
+2021-09-07 19:45:08,488  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-09-07 19:45:08,491  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet' 
+2021-09-07 19:45:08,522  INFO (FrameworkServlet.java:547) - Completed initialization in 29 ms 
+2021-09-07 20:27:50,098  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m11s720ms). 
+2021-09-07 20:38:08,549  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m47s483ms). 

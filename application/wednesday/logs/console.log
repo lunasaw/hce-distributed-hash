@@ -1,0 +1,271 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-03 15:56:34,640  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8001 (http) 
+2021-09-03 15:56:34,681  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8001"] 
+2021-09-03 15:56:34,682  INFO (DirectJDKLog.java:173) - Starting service [Tomcat] 
+2021-09-03 15:56:34,683  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29] 
+2021-09-03 15:56:35,171  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext 
+2021-09-03 15:56:35,171  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 4536 ms 
+2021-09-03 15:56:36,844  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-09-03 15:56:37,722  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler' 
+2021-09-03 15:56:37,973  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8001"] 
+2021-09-03 15:56:38,064  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting... 
+2021-09-03 15:56:38,155  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8001 (http) with context path '/fusion-user' 
+2021-09-03 15:56:39,363  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed. 
+2021-09-03 15:58:30,362  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-09-03 15:58:30,365  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet' 
+2021-09-03 15:58:30,415  INFO (FrameworkServlet.java:547) - Completed initialization in 50 ms 
+2021-09-03 16:58:08,258  WARN (HikariPool.java:779) - HikariPool-1 - Retrograde clock change detected (housekeeper delta=28s91ms), soft-evicting connections from pool. 
+2021-09-03 17:24:52,603 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2de211c5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:24:57,632 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@22e7dc32 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:02,669 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@557f4820 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:05,372 62bf7ea525e342bb8b92fe4bfb6ace0b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@11d7a8e9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:07,683 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3d29da5b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:10,378 62bf7ea525e342bb8b92fe4bfb6ace0b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b7c03f7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:12,695 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@25193d7f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:15,385 62bf7ea525e342bb8b92fe4bfb6ace0b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2b02a90d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:17,712 0c279e2cc30d491a97f57794e653a76b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a885fb4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 17:25:20,403 62bf7ea525e342bb8b92fe4bfb6ace0b WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@396a310b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-03 18:55:06,401  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=49m55s693ms). 
+2021-09-03 20:43:29,192  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h47m52s154ms). 
+2021-09-04 03:55:38,257  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h12m9s250ms). 
+2021-09-05 15:04:42,416  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1d11h9m4s157ms). 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 15:18:25,826  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8001 (http) 
+2021-09-07 15:18:25,893  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8001"] 
+2021-09-07 15:18:25,895  INFO (DirectJDKLog.java:173) - Starting service [Tomcat] 
+2021-09-07 15:18:25,896  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29] 
+2021-09-07 15:18:26,808  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext 
+2021-09-07 15:18:26,809  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 11564 ms 
+2021-09-07 15:18:30,487  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor' 
+2021-09-07 15:18:32,251  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler' 
+2021-09-07 15:18:32,663  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8001"] 
+2021-09-07 15:18:32,729  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting... 
+2021-09-07 15:18:32,985  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8001 (http) with context path '/fusion-user' 
+2021-09-07 15:18:33,886  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed. 
+2021-09-07 15:20:55,669  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet' 
+2021-09-07 15:20:55,674  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet' 
+2021-09-07 15:20:55,737  INFO (FrameworkServlet.java:547) - Completed initialization in 62 ms 
+2021-09-07 15:26:03,554  WARN (HikariPool.java:779) - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s493ms), soft-evicting connections from pool. 
+2021-09-07 16:27:12,271  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s430ms). 
+2021-09-07 16:45:00,090 40b4d1ba4507424dbd0e237052f9eb33 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a08cd3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:45:05,140 40b4d1ba4507424dbd0e237052f9eb33 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@40d4555a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:45:10,201 40b4d1ba4507424dbd0e237052f9eb33 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4320d004 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:45:15,206 40b4d1ba4507424dbd0e237052f9eb33 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5fcc268f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:51:04,139 d8df2086ac9a4e0883bd8765173b5296 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b1e7e88 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:52:18,311 2a90884363134d048866b358c2de36e4 WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7f4edfc6 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:53:21,361 a7e147c266464329a6bce79c5c2f178c WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@16a2b1b0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:53:21,364 c3203e9ff3b84dd6964311b7abab385f WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14c19f9 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 16:53:26,378 c3203e9ff3b84dd6964311b7abab385f WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62262771 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value. /fusion-user/api/getUserIdBySessionKey
+2021-09-07 17:00:42,603  WARN (HikariPool.java:779) - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s798ms), soft-evicting connections from pool. 
+2021-09-07 18:24:31,614  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m47s927ms). 
+2021-09-07 18:43:41,117  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=19m9s525ms). 
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 19:24:08,975  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8003 (http)
+2021-09-07 19:24:09,000  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-07 19:24:09,000  INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2021-09-07 19:24:09,001  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-09-07 19:24:09,145  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2021-09-07 19:24:09,147  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 6585 ms
+2021-09-07 19:24:11,600  INFO (OshiUtils.java:94) - init oshiHardwareDTO success, oshiHardwareDTO=OshiHardwareDTO{hostName='MacBook-Pro.local', manufacturer='Apple Inc.', model='MacBookPro12,1', serialNumber='C17QD861FVH5', firmwareDTO=FirmwareDTO{manufacturer='Apple Inc.', name='boot.efi', description='EFI64', version='427.140.8.0.0'}, motherboardDTO=MotherboardDTO{manufacturer='Apple Inc.', model='Mac-E43C1C25D4880AD6', version='1.0', serialNumber='C17QD861FVH5'}, macAddressSet=[ac:bc:32:9a:b7:e5, de:2e:d2:cf:79:d6], processor=ProcessorDTO{name='Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+ 1 physical CPU package(s)
+ 2 physical CPU core(s)
+ 4 logical CPU(s)
+Identifier: Intel64 Family 6 Model 61 Stepping 4
+ProcessorID: bfebfbff000306d4
+Microarchitecture: Broadwell (Client)', processorId='bfebfbff000306d4', physicalPackageCount=1, physicalProcessorCount=2, logicalProcessorCount=4, nice='null', system='null', user='null', wait='null', idle='null'}, memory=null, jvm=null, sysFiles=null, systemInfoDTO=null}
+2021-09-07 19:24:12,937  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService
+2021-09-07 19:24:12,940  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskExecutor'
+2021-09-07 19:24:14,341  INFO (WelcomePageHandlerMapping.java:58) - Adding welcome page template: index
+2021-09-07 19:24:14,810  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler'
+2021-09-07 19:24:15,065  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8003"]
+2021-09-07 19:24:15,187  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2021-09-07 19:24:15,313  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8003 (http) with context path '/wednesday'
+2021-09-07 19:24:16,013  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2021-09-07 19:25:20,292  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 19:25:20,295  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2021-09-07 19:25:20,382  INFO (FrameworkServlet.java:547) - Completed initialization in 85 ms
+2021-09-07 19:25:30,592  ERROR (DirectJDKLog.java:175) - Servlet.service() for servlet [dispatcherServlet] in context with path [/wednesday] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out] with root cause
+java.net.SocketTimeoutException: Read timed out
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at com.iteknical.common.utils.HttpUtils.doGet(HttpUtils.java:106)
+	at com.iteknical.common.utils.RestUtils.doGet(RestUtils.java:18)
+	at com.iteknical.fusion.user.client.UserClient.getUserIdBySessionKey(UserClient.java:32)
+	at com.iteknical.wednesday.support.UserSupport.getUserIdBySessionKey(UserSupport.java:24)
+	at com.iteknical.wednesday.support.UserSupport$$FastClassBySpringCGLIB$$2092fe94.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:769)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:56)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:93)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:747)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
+	at com.iteknical.wednesday.support.UserSupport$$EnhancerBySpringCGLIB$$d17e74d8.getUserIdBySessionKey(<generated>)
+	at com.iteknical.wednesday.interceptor.LoginInterceptor.checkSessionKey(LoginInterceptor.java:68)
+	at com.iteknical.wednesday.interceptor.LoginInterceptor.preHandle(LoginInterceptor.java:51)
+	at org.springframework.web.servlet.HandlerExecutionChain.applyPreHandle(HandlerExecutionChain.java:141)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1035)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:526)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:860)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1591)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 19:37:13,528  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8003 (http)
+2021-09-07 19:37:13,551  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-07 19:37:13,552  INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2021-09-07 19:37:13,552  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-09-07 19:37:13,747  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2021-09-07 19:37:13,748  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 5286 ms
+2021-09-07 19:37:15,542  INFO (OshiUtils.java:94) - init oshiHardwareDTO success, oshiHardwareDTO=OshiHardwareDTO{hostName='MacBook-Pro.local', manufacturer='Apple Inc.', model='MacBookPro12,1', serialNumber='C17QD861FVH5', firmwareDTO=FirmwareDTO{manufacturer='Apple Inc.', name='boot.efi', description='EFI64', version='427.140.8.0.0'}, motherboardDTO=MotherboardDTO{manufacturer='Apple Inc.', model='Mac-E43C1C25D4880AD6', version='1.0', serialNumber='C17QD861FVH5'}, macAddressSet=[ac:bc:32:9a:b7:e5, de:2e:d2:cf:79:d6], processor=ProcessorDTO{name='Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+ 1 physical CPU package(s)
+ 2 physical CPU core(s)
+ 4 logical CPU(s)
+Identifier: Intel64 Family 6 Model 61 Stepping 4
+ProcessorID: bfebfbff000306d4
+Microarchitecture: Broadwell (Client)', processorId='bfebfbff000306d4', physicalPackageCount=1, physicalProcessorCount=2, logicalProcessorCount=4, nice='null', system='null', user='null', wait='null', idle='null'}, memory=null, jvm=null, sysFiles=null, systemInfoDTO=null}
+2021-09-07 19:37:16,762  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService
+2021-09-07 19:37:16,764  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskExecutor'
+2021-09-07 19:37:17,859  INFO (WelcomePageHandlerMapping.java:58) - Adding welcome page template: index
+2021-09-07 19:37:18,478  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler'
+2021-09-07 19:37:18,623  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8003"]
+2021-09-07 19:37:18,714  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8003 (http) with context path '/wednesday'
+2021-09-07 19:37:18,954  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 19:37:18,955  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2021-09-07 19:37:18,988  INFO (FrameworkServlet.java:547) - Completed initialization in 33 ms
+2021-09-07 19:37:19,866  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2021-09-07 19:37:20,682  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 19:44:01,088  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8003 (http)
+2021-09-07 19:44:01,195  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8003"]
+2021-09-07 19:44:01,196  INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2021-09-07 19:44:01,197  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-09-07 19:44:01,825  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2021-09-07 19:44:01,827  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 13584 ms
+2021-09-07 19:44:06,407  INFO (OshiUtils.java:94) - init oshiHardwareDTO success, oshiHardwareDTO=OshiHardwareDTO{hostName='MacBook-Pro.local', manufacturer='Apple Inc.', model='MacBookPro12,1', serialNumber='C17QD861FVH5', firmwareDTO=FirmwareDTO{manufacturer='Apple Inc.', name='boot.efi', description='EFI64', version='427.140.8.0.0'}, motherboardDTO=MotherboardDTO{manufacturer='Apple Inc.', model='Mac-E43C1C25D4880AD6', version='1.0', serialNumber='C17QD861FVH5'}, macAddressSet=[ac:bc:32:9a:b7:e5, de:2e:d2:cf:79:d6], processor=ProcessorDTO{name='Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+ 1 physical CPU package(s)
+ 2 physical CPU core(s)
+ 4 logical CPU(s)
+Identifier: Intel64 Family 6 Model 61 Stepping 4
+ProcessorID: bfebfbff000306d4
+Microarchitecture: Broadwell (Client)', processorId='bfebfbff000306d4', physicalPackageCount=1, physicalProcessorCount=2, logicalProcessorCount=4, nice='null', system='null', user='null', wait='null', idle='null'}, memory=null, jvm=null, sysFiles=null, systemInfoDTO=null}
+2021-09-07 19:44:09,128  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService
+2021-09-07 19:44:09,130  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskExecutor'
+2021-09-07 19:44:11,629  INFO (WelcomePageHandlerMapping.java:58) - Adding welcome page template: index
+2021-09-07 19:44:12,761  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'taskScheduler'
+2021-09-07 19:44:12,990  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8003"]
+2021-09-07 19:44:13,076  INFO (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2021-09-07 19:44:13,158  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8003 (http) with context path '/wednesday'
+2021-09-07 19:44:13,802  INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+2021-09-07 19:45:08,084  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 19:45:08,085  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2021-09-07 19:45:08,140  INFO (FrameworkServlet.java:547) - Completed initialization in 54 ms
+2021-09-07 20:27:55,709  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m11s626ms).
+2021-09-07 20:27:56,748  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@58ddefec (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:28:01,755  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7bb41266 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:28:07,721  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3f171279 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:28:12,733  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@21906e11 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:28:17,736  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63f432d5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:28:22,746  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5863dfb4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:28:27,769  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@45ec6c46 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:28:32,773  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@14d98d66 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:28:37,787  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4fd91520 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:38:01,013  WARN (PoolBase.java:179) - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6bfd1b26 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-09-07 20:38:14,157  WARN (HikariPool.java:787) - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m47s483ms).

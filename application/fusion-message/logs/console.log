@@ -1,0 +1,43 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 19:36:58,916  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8002 (http)
+2021-09-07 19:36:58,942  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8002"]
+2021-09-07 19:36:58,944  INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2021-09-07 19:36:58,944  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-09-07 19:36:59,166  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2021-09-07 19:36:59,166  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 3806 ms
+2021-09-07 19:37:00,310  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 19:37:00,522  INFO (WelcomePageHandlerMapping.java:58) - Adding welcome page template: index
+2021-09-07 19:37:01,034  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8002"]
+2021-09-07 19:37:01,092  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8002 (http) with context path '/fusion-message'
+2021-09-07 19:37:24,510  INFO (DirectJDKLog.java:173) - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-07 19:37:24,512  INFO (FrameworkServlet.java:525) - Initializing Servlet 'dispatcherServlet'
+2021-09-07 19:37:24,541  INFO (FrameworkServlet.java:547) - Completed initialization in 28 ms
+2021-09-07 19:37:25,174 64d145f1f5ac437b85498339dbd7b4c1 INFO (HikariDataSource.java:110) - HikariPool-1 - Starting...
+2021-09-07 19:37:25,736 64d145f1f5ac437b85498339dbd7b4c1 INFO (HikariDataSource.java:123) - HikariPool-1 - Start completed.
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.2.RELEASE)
+
+2021-09-07 19:43:59,619  INFO (TomcatWebServer.java:92) - Tomcat initialized with port(s): 8002 (http)
+2021-09-07 19:43:59,780  INFO (DirectJDKLog.java:173) - Initializing ProtocolHandler ["http-nio-8002"]
+2021-09-07 19:43:59,782  INFO (DirectJDKLog.java:173) - Starting service [Tomcat]
+2021-09-07 19:43:59,782  INFO (DirectJDKLog.java:173) - Starting Servlet engine: [Apache Tomcat/9.0.29]
+2021-09-07 19:44:00,189  INFO (DirectJDKLog.java:173) - Initializing Spring embedded WebApplicationContext
+2021-09-07 19:44:00,190  INFO (ServletWebServerApplicationContext.java:284) - Root WebApplicationContext: initialization completed in 11926 ms
+2021-09-07 19:44:05,346  INFO (ExecutorConfigurationSupport.java:171) - Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-07 19:44:06,177  INFO (WelcomePageHandlerMapping.java:58) - Adding welcome page template: index
+2021-09-07 19:44:08,062  INFO (DirectJDKLog.java:173) - Starting ProtocolHandler ["http-nio-8002"]
+2021-09-07 19:44:08,345  INFO (TomcatWebServer.java:204) - Tomcat started on port(s): 8002 (http) with context path '/fusion-message'

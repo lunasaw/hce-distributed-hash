@@ -1,0 +1,3 @@
+2021-09-08 10:51:33,438  INFO [main] (StartupInfoLogger.java:55) - Starting FusionMessageApplication v1.0-SNAPSHOT on DESKTOP-A48DR00 with PID 3896 (D:\graduation-project\application\fusion-message\fusion-message-server-1.0-SNAPSHOT.jar started by isluna in D:\graduation-project\application\fusion-message) 
+2021-09-08 10:51:33,443  INFO [main] (SpringApplication.java:651) - No active profile set, falling back to default profiles: default 
+2021-09-08 10:51:37,778  INFO [main] (StartupInfoLogger.java:61) - Started FusionMessageApplication in 5.187 seconds (JVM running for 5.861) 
